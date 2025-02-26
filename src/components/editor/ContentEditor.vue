@@ -144,7 +144,7 @@ const closeSettings = () => state.value.openedSettings = null
 
         <AppModal
             v-if="state.popupIsOpen"
-            title="Вставить блок"
+            title="Insert block"
             @close="closePopup"
         >
             <div>

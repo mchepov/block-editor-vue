@@ -86,7 +86,7 @@ const containerClass = computed(() => {
 
             <AppModal
                 v-if="openSettings"
-                title="Настройки блока"
+                title="Block settings"
                 @close="closeSettings"
             >
                 <RichTextSettings
