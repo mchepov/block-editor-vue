@@ -1,0 +1,11 @@
+.modal-enter-from, .modal-leave-to {
+    opacity: 0;
+}
+
+.modal-enter-to, .modal-leave-from {
+    opacity: 1;
+}
+
+.modal-enter-active, .modal-leave-active {
+    transition: all .3s ease-in-out;
+}

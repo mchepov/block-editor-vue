@@ -1,0 +1,13 @@
+@import "tailwindcss";
+@import '@fortawesome/fontawesome-free/css/fontawesome.css';
+@import '@fortawesome/fontawesome-free/css/brands.css';
+@import '@fortawesome/fontawesome-free/css/regular.css';
+@import '@fortawesome/fontawesome-free/css/solid.css';
+@import './components/tooltip.css';
+@import './components/modal.css';
+@plugin "@tailwindcss/typography";
+@plugin "@tailwindcss/forms";
+
+*[contenteditable] {
+    outline: none !important;
+}
